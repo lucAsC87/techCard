@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    background-color: #1A1B21;
+    font-family: 'Inter', sans-serif;
+    color: #dedcb7;
+}
+
+body {
+    border: solid #000;
+    width: 330px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > h2 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.info > img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.jobtitle {
+    margin-top: 5px;
+    color: #a0d345;
+}
+
+.links > ul {
+   display: flex;
+   justify-content: center;
+   margin-top: auto;
+   align-items: center;
+   padding: 0px;
+   list-style: none;
+   gap: 15px;
+}
+
+button {
+    border-radius: 5px;
+    width: 115px;
+    padding: 5px 10px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.mail > img {
+    background-color: #FFF;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #5093E2;
+    color: #000;
+}
+
+.linkedin > img {
+    background-color: #5093E2;
+    width: 25px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    padding: 0px 20px;
+}
+
+.interests {
+
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    padding: 20px;
+}
+
+footer {
+    height: 60px;
+    background-color: #262230;
+    margin: auto;
+    width: 317px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer > a > img {
+    background-color: #918E9B;;
+}
+
